@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 65%;
+  color: 'black'
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    width: 100%;
+  }
+}
